@@ -14,7 +14,9 @@ function Main() {
             <h3 className='text-left text-2xl text-slate-400'>crafted by <span className='font-bold'>ThemeWagon</span></h3>
             <p className='text-left text-slate-400'>ThemeWagon offers an wide array of category-oriented Free and Premium  Bootstrap HTML Templates and Themes. </p>
           </div>
-          <div className='w-96 h-80 border rounded-lg shadow'></div>
+          <div className='w-96 h-80 border rounded-lg shadow'>
+            <img src="home/illustration1.png" alt="" />
+          </div>
 
         </div>
 
