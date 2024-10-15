@@ -3,12 +3,12 @@ import React from 'react'
 
 function NavBar() {
     return (
-        <nav className="flex justify-center px-8 h-24 items-center bg-white text-black">
+        <nav className="flex justify-center px-8 h-24 items-center bg-white text-black border shadow">
             <div className='flex align-center items-center justify-between gap-14'>
                 <figure>
                     
                 </figure>
-                <ul className="flex gap-8">
+                <ul className="flex gap-11">
                     <li>
                         <Link href={'/'}>
                             Home
