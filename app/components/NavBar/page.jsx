@@ -6,7 +6,7 @@ function NavBar() {
         <nav className="flex justify-center px-8 h-24 items-center bg-white text-black border shadow">
             <div className='flex align-center items-center justify-between gap-14'>
                 <figure>
-                    
+                    <img src="home/logo.jpg" alt="" />
                 </figure>
                 <ul className="flex gap-11">
                     <li>

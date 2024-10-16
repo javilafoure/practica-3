@@ -9,10 +9,18 @@ function Team() {
       <p className='text-black flex justify-center text-center'>People from various origins, cultures, and personalities make up our team.<br/> This blend makes it a powerful team</p>
       <div className='flex flex-col py-14'>
         <div className='flex justify-center px-3 gap-3'>
-          <div className='w-60 h-80 border rounded-lg shadow'></div>
-          <div className='w-60 h-80 border rounded-lg shadow'></div>
-          <div className='w-60 h-80 border rounded-lg shadow'></div>
-          <div className='w-60 h-80 border rounded-lg shadow'></div>
+          <div className='overflow-hidden object-cover w-60 h-80'>
+            <img className='w-60 h-80' src="team/image1.png" alt="" />
+          </div>
+          <div className='overflow-hidden object-cover w-60 h-80'>
+            <img className='w-60 h-80' src="team/image2.png" alt="" />
+          </div>
+          <div className='overflow-hidden object-cover w-60 h-80'>
+            <img className='w-60 h-80' src="team/image3.png" alt="" />
+          </div>
+          <div className='overflow-hidden object-cover w-60 h-80'>
+            <img className='w-60 h-80' src="team/image4.png" alt="" />
+          </div>
         </div>
         <div className='flex justify-center py-3 gap-3'>
           <div className='w-60 h-28'>

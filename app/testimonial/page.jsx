@@ -8,8 +8,11 @@ function Testimonial() {
       <p className='text-black flex justify-center text-center'>Our success is determined on how satisfied our customers are with the<br /> service. These reviews say we have stuff to do.</p>
       <div className='flex flex-col py-14'>
         <div className='flex justify-center px-3 gap-8'>
-          <div className='w-96 h-80 border rounded-lg shadow'></div>
+          <div className='w-96 h-80'>
+            <img src="testimonial/image1.png" alt="" />
+          </div>
           <div className='flex flex-col w-96 h-80 p-3 gap-3'>
+            
             <h2 className='text-left font-bold text-xl text-black'>Outstanding</h2>
             <p className='text-left text-slate-400'>I just wanted to drop you a little email to say thank you for all your hard work. Im delighted I chose you as my partner. Your websites are quite simple to edit and maintain, which is fantastic.</p>
             <div className='flex'>
